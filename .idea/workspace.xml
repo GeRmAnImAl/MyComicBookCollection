@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="778fa1e9-f095-42b4-b2fd-c00255f40742" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ComicBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ComicBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663179883421</updated>
-      <workItem from="1663179885034" duration="4144000" />
+      <workItem from="1663179885034" duration="5147000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;&#10;This is the first commit for this project.">
       <created>1663179910184</created>
@@ -128,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663182766476</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Create Application class to run main method and add functionality&#10;&#10;The Application class contains the main method and functionality of the application. It will&#10;take in user input to determine what tasks to perform. Choices such as open collection, add&#10;comic book, and save and exit are executed by a switch statement.">
+      <created>1663184253672</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663184253672</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +155,7 @@
     <MESSAGE value="Create ComicBook class and add functionality&#10;&#10;ComicBook will be the object which holds the information of for the physical comic books&#10;which will be added to the repository. As of now, all fields are required for creation." />
     <MESSAGE value="Create Repository class and add functionality&#10;&#10;The Repository class will create an object to hold a List (library) of ComicBook&#10;objects. Further functionality to come." />
     <MESSAGE value="Create test class for Repository and test addComicBook and toString methods&#10;&#10;addComicBook method will add a comicBook object to the Repository object's internal list.&#10;toString method iterates through the Repository object's internal list and returns a&#10;string containing the information for each comicBook object within." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create test class for Repository and test addComicBook and toString methods&#10;&#10;addComicBook method will add a comicBook object to the Repository object's internal list.&#10;toString method iterates through the Repository object's internal list and returns a&#10;string containing the information for each comicBook object within." />
+    <MESSAGE value="Create Application class to run main method and add functionality&#10;&#10;The Application class contains the main method and functionality of the application. It will&#10;take in user input to determine what tasks to perform. Choices such as open collection, add&#10;comic book, and save and exit are executed by a switch statement." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Application class to run main method and add functionality&#10;&#10;The Application class contains the main method and functionality of the application. It will&#10;take in user input to determine what tasks to perform. Choices such as open collection, add&#10;comic book, and save and exit are executed by a switch statement." />
   </component>
 </project>
