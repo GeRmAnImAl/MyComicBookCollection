@@ -20,7 +20,7 @@ public class ComicBook implements Serializable {
     @Override
     public String toString(){
 
-        return String.format("Title: %s\nIssue #: %d\nAuthor: %s\nArtist: %s\nOriginal Price : $%,.2f\nPublisher: %s",
+        return String.format("Title: %s\nIssue #: %d\nAuthor: %s\nArtist: %s\nOriginal Price : $%,.2f\nPublisher: %s\n",
                 this.getTitle(), this.getIssue(), this.getAuthor(), this.getArtist(), this.getOriginalPrice(), this.getPublisher());
     }
 
