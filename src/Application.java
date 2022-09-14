@@ -59,7 +59,7 @@ public class Application {
     }
 
     private static void saveAndQuit() throws IOException {
-        System.out.println("Enter file name: ");
+        System.out.println("Enter the name of the file you wish to save: ");
         fileName = scanner.nextLine() + ".ser";
         running = false;
 

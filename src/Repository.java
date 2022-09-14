@@ -21,7 +21,7 @@ public class Repository implements Serializable {
             stringBuilder.append(comicBook.toString());
             stringBuilder.append("\n");
         }
-        return stringBuilder.toString();
+        return stringBuilder.toString() + "\n";
     }
 
     public List<ComicBook> getLibrary() {
