@@ -10,26 +10,20 @@ public class Application {
     public static void main(String[] args) throws IOException {
         System.out.println("Welcome to your comic book collection!\n");
         while (running) {
-            System.out.println("Enter 1 to load a collection.\nEnter 2 to list all comic books in the collection.\n" +
-                    "Enter 3 to add a comic book to the collection\nEnter 0 to save and quit.");
+            System.out.println("""
+                    Enter 1 to load a collection.
+                    Enter 2 to list all comic books in the collection.
+                    Enter 3 to add a comic book to the collection
+                    Enter 0 to save and quit.""");
             int response = Integer.parseInt(scanner.nextLine());
             switch (response) {
-                case 0:
-                    saveAndQuit();
-                    break;
-
-                case 1:
+                case 0 -> saveAndQuit();
+                case 1 -> {
                     System.out.println("Enter the name of the collection you would like to load: ");
                     loadScript(scanner.nextLine());
-                    break;
-
-                case 2:
-                    System.out.println(library.toString());
-                    break;
-
-                case 3:
-                    addComic();
-                    break;
+                }
+                case 2 -> System.out.println(library.toString());
+                case 3 -> addComic();
             }
         }
         System.exit(0);

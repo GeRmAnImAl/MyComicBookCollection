@@ -22,8 +22,15 @@ public class ComicBook implements Serializable {
     @Override
     public String toString() {
 
-        return String.format("Title: %s\nIssue #: %d\nAuthor: %s\nArtist: %s\nOriginal Price : $%,.2f\nPublisher: %s\n",
-                this.getTitle(), this.getIssue(), this.getAuthor(), this.getArtist(), this.getOriginalPrice(), this.getPublisher());
+        return String.format("""
+                        Title: %s
+                        Issue #: %d
+                        Author: %s
+                        Artist: %s
+                        Original Price : $%,.2f
+                        Publisher: %s
+                        Number of Copies: %d""", this.getTitle(), this.getIssue(), this.getAuthor(), this.getArtist(),
+                this.getOriginalPrice(), this.getPublisher(), this.getNumCopies());
     }
 
     public String getTitle() {
@@ -72,5 +79,13 @@ public class ComicBook implements Serializable {
 
     public void setPublisher(String publisher) {
         this.publisher = publisher;
+    }
+
+    public int getNumCopies() {
+        return numCopies;
+    }
+
+    public void setNumCopies(int numCopies) {
+        this.numCopies = numCopies;
     }
 }

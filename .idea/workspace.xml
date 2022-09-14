@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="778fa1e9-f095-42b4-b2fd-c00255f40742" name="Changes" comment="">
+    <list default="true" id="778fa1e9-f095-42b4-b2fd-c00255f40742" name="Changes" comment="Add addComicBook method and collection print functionality to Application class&#10;&#10;The addComicBook method allows users to add comic to their collection by providing necessary&#10;information. The ability to print all the comics in a collection allows users to view their &#10;collection contents in their entirety. In regard to the addComicBook method, there is an &#10;opportunity to transition away from an ArrayList to hold ComicBook objects and instead use &#10;a Map.">
+      <change afterPath="$PROJECT_DIR$/Marvel Comics.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/ComicBookTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/RepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/RepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ComicBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ComicBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -39,6 +41,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -62,7 +65,33 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RepositoryTest.testToString">
+  <component name="RunManager" selected="JUnit.ComicBookTest">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Application" />
+      <module name="MyComicBookCollection" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComicBookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyComicBookCollection" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ComicBookTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComicBookTest.testToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyComicBookCollection" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ComicBookTest" />
+      <option name="METHOD_NAME" value="testToString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RepositoryTest.addComicBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyComicBookCollection" />
       <option name="PACKAGE_NAME" value="" />
@@ -85,6 +114,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ComicBookTest" />
+        <item itemvalue="JUnit.ComicBookTest.testToString" />
+        <item itemvalue="Application.Application" />
         <item itemvalue="JUnit.RepositoryTest.testToString" />
         <item itemvalue="JUnit.RepositoryTest.addComicBook" />
       </list>
@@ -98,7 +130,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663179883421</updated>
-      <workItem from="1663179885034" duration="5898000" />
+      <workItem from="1663179885034" duration="7513000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;&#10;This is the first commit for this project.">
       <created>1663179910184</created>
@@ -142,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663185170544</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add addComicBook method and collection print functionality to Application class&#10;&#10;The addComicBook method allows users to add comic to their collection by providing necessary&#10;information. The ability to print all the comics in a collection allows users to view their &#10;collection contents in their entirety. In regard to the addComicBook method, there is an &#10;opportunity to transition away from an ArrayList to hold ComicBook objects and instead use &#10;a Map.">
+      <created>1663186209176</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663186209176</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,12 +199,14 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit&#10;&#10;This is the first commit for this project." />
     <MESSAGE value="Create ComicBook class and add functionality&#10;&#10;ComicBook will be the object which holds the information of for the physical comic books&#10;which will be added to the repository. As of now, all fields are required for creation." />
     <MESSAGE value="Create Repository class and add functionality&#10;&#10;The Repository class will create an object to hold a List (library) of ComicBook&#10;objects. Further functionality to come." />
     <MESSAGE value="Create test class for Repository and test addComicBook and toString methods&#10;&#10;addComicBook method will add a comicBook object to the Repository object's internal list.&#10;toString method iterates through the Repository object's internal list and returns a&#10;string containing the information for each comicBook object within." />
     <MESSAGE value="Create Application class to run main method and add functionality&#10;&#10;The Application class contains the main method and functionality of the application. It will&#10;take in user input to determine what tasks to perform. Choices such as open collection, add&#10;comic book, and save and exit are executed by a switch statement." />
     <MESSAGE value="Add saveAndQuit method to Application class&#10;&#10;The saveAndQuit method will utilize serialization to save a user's collection and exit the&#10;application." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add saveAndQuit method to Application class&#10;&#10;The saveAndQuit method will utilize serialization to save a user's collection and exit the&#10;application." />
+    <MESSAGE value="Add addComicBook method and collection print functionality to Application class&#10;&#10;The addComicBook method allows users to add comic to their collection by providing necessary&#10;information. The ability to print all the comics in a collection allows users to view their &#10;collection contents in their entirety. In regard to the addComicBook method, there is an &#10;opportunity to transition away from an ArrayList to hold ComicBook objects and instead use &#10;a Map." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add addComicBook method and collection print functionality to Application class&#10;&#10;The addComicBook method allows users to add comic to their collection by providing necessary&#10;information. The ability to print all the comics in a collection allows users to view their &#10;collection contents in their entirety. In regard to the addComicBook method, there is an &#10;opportunity to transition away from an ArrayList to hold ComicBook objects and instead use &#10;a Map." />
   </component>
 </project>

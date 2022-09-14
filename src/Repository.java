@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Repository implements Serializable {
-    private List<ComicBook> library;
+    private final List<ComicBook> library;
 
     public Repository() {
         this.library = new ArrayList<>();
