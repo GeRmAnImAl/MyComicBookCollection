@@ -22,8 +22,16 @@ public class Repository implements Serializable {
         Iterator iterator = library.iterator();
         while (iterator.hasNext()) {
             stringBuilder.append(iterator.next().toString());
+            stringBuilder.append("\n");
         }
         return stringBuilder.toString();
     }
 
+    public List<ComicBook> getLibrary() {
+        return library;
+    }
+
+    public void setLibrary(List<ComicBook> library) {
+        this.library = library;
+    }
 }

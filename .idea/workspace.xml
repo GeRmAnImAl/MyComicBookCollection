@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="778fa1e9-f095-42b4-b2fd-c00255f40742" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Repository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ComicBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ComicBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/RepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyComicBookCollection.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyComicBookCollection.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -36,15 +39,57 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RepositoryTest.testToString">
+    <configuration name="RepositoryTest.addComicBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyComicBookCollection" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RepositoryTest" />
+      <option name="METHOD_NAME" value="addComicBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RepositoryTest.testToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyComicBookCollection" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RepositoryTest" />
+      <option name="METHOD_NAME" value="testToString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RepositoryTest.testToString" />
+        <item itemvalue="JUnit.RepositoryTest.addComicBook" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,7 +98,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663179883421</updated>
-      <workItem from="1663179885034" duration="1629000" />
+      <workItem from="1663179885034" duration="2376000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;&#10;This is the first commit for this project.">
       <created>1663179910184</created>
@@ -69,15 +114,34 @@
       <option name="project" value="LOCAL" />
       <updated>1663180994240</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Create Repository class and add functionality&#10;&#10;The Repository class will create an object to hold a List (library) of ComicBook&#10;objects. Further functionality to come.">
+      <created>1663181719401</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663181719401</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit&#10;&#10;This is the first commit for this project." />
     <MESSAGE value="Create ComicBook class and add functionality&#10;&#10;ComicBook will be the object which holds the information of for the physical comic books&#10;which will be added to the repository. As of now, all fields are required for creation." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create ComicBook class and add functionality&#10;&#10;ComicBook will be the object which holds the information of for the physical comic books&#10;which will be added to the repository. As of now, all fields are required for creation." />
+    <MESSAGE value="Create Repository class and add functionality&#10;&#10;The Repository class will create an object to hold a List (library) of ComicBook&#10;objects. Further functionality to come." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Repository class and add functionality&#10;&#10;The Repository class will create an object to hold a List (library) of ComicBook&#10;objects. Further functionality to come." />
   </component>
 </project>
