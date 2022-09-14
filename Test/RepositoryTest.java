@@ -4,9 +4,9 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class RepositoryTest {
     ComicBook spiderman = new ComicBook("Spiderman", 1, "Stan Lee", "Stan Less", 0.35,
-            "Marvel");
+            "Marvel", 1);
     ComicBook spiderman2 = new ComicBook("Spiderman", 2, "Stan Lee", "Stan Less", 0.35,
-            "Marvel");
+            "Marvel", 1);
     Repository library = new Repository();
 
     @Test

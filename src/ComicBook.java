@@ -7,14 +7,16 @@ public class ComicBook implements Serializable {
     private String artist;
     private double originalPrice;
     private String publisher;
+    private int numCopies;
 
-    public ComicBook(String title, int issue, String author, String artist, double originalPrice, String publisher) {
+    public ComicBook(String title, int issue, String author, String artist, double originalPrice, String publisher, int numCopies) {
         this.title = title;
         this.issue = issue;
         this.author = author;
         this.artist = artist;
         this.originalPrice = originalPrice;
         this.publisher = publisher;
+        this.numCopies = numCopies;
     }
 
     @Override
