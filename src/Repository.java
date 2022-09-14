@@ -1,27 +1,24 @@
-import javax.swing.text.html.HTMLDocument;
 import java.io.Serializable;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 public class Repository implements Serializable {
     private List<ComicBook> library;
 
-    public Repository(){
+    public Repository() {
         this.library = new ArrayList<>();
     }
 
-    public void addComicBook(ComicBook comic){
+    public void addComicBook(ComicBook comic) {
         this.library.add(comic);
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
 
-        Iterator iterator = library.iterator();
-        while (iterator.hasNext()) {
-            stringBuilder.append(iterator.next().toString());
+        for (ComicBook comicBook : library) {
+            stringBuilder.append(comicBook.toString());
             stringBuilder.append("\n");
         }
         return stringBuilder.toString();
@@ -29,9 +26,5 @@ public class Repository implements Serializable {
 
     public List<ComicBook> getLibrary() {
         return library;
-    }
-
-    public void setLibrary(List<ComicBook> library) {
-        this.library = library;
     }
 }

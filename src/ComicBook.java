@@ -8,7 +8,7 @@ public class ComicBook implements Serializable {
     private double originalPrice;
     private String publisher;
 
-    public ComicBook(String title, int issue, String author, String artist, double originalPrice, String publisher){
+    public ComicBook(String title, int issue, String author, String artist, double originalPrice, String publisher) {
         this.title = title;
         this.issue = issue;
         this.author = author;
@@ -18,7 +18,7 @@ public class ComicBook implements Serializable {
     }
 
     @Override
-    public String toString(){
+    public String toString() {
 
         return String.format("Title: %s\nIssue #: %d\nAuthor: %s\nArtist: %s\nOriginal Price : $%,.2f\nPublisher: %s\n",
                 this.getTitle(), this.getIssue(), this.getAuthor(), this.getArtist(), this.getOriginalPrice(), this.getPublisher());
