@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="778fa1e9-f095-42b4-b2fd-c00255f40742" name="Changes" comment="">
+    <list default="true" id="778fa1e9-f095-42b4-b2fd-c00255f40742" name="Changes" comment="Clean up some code&#10;&#10;This is a housekeeping commit fixing some style issues.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marvel Comics.ser" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +125,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663179883421</updated>
-      <workItem from="1663179885034" duration="7893000" />
+      <workItem from="1663179885034" duration="8754000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;&#10;This is the first commit for this project.">
       <created>1663179910184</created>
@@ -185,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663187539897</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Clean up some code&#10;&#10;This is a housekeeping commit fixing some style issues.">
+      <created>1663188080711</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1663188080711</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +217,7 @@
     <MESSAGE value="Add saveAndQuit method to Application class&#10;&#10;The saveAndQuit method will utilize serialization to save a user's collection and exit the&#10;application." />
     <MESSAGE value="Add addComicBook method and collection print functionality to Application class&#10;&#10;The addComicBook method allows users to add comic to their collection by providing necessary&#10;information. The ability to print all the comics in a collection allows users to view their &#10;collection contents in their entirety. In regard to the addComicBook method, there is an &#10;opportunity to transition away from an ArrayList to hold ComicBook objects and instead use &#10;a Map." />
     <MESSAGE value="Add Junit tests for ComicBook class functionality&#10;&#10;Test all getters and setters for functionality in the ComicBook class." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Junit tests for ComicBook class functionality&#10;&#10;Test all getters and setters for functionality in the ComicBook class." />
+    <MESSAGE value="Clean up some code&#10;&#10;This is a housekeeping commit fixing some style issues." />
+    <option name="LAST_COMMIT_MESSAGE" value="Clean up some code&#10;&#10;This is a housekeeping commit fixing some style issues." />
   </component>
 </project>

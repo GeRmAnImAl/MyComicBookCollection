@@ -8,7 +8,33 @@ public class Application {
     static boolean running = true;
 
     public static void main(String[] args) throws IOException {
-        System.out.println("Welcome to your comic book collection!\n");
+        System.out.println("                                                                                                                               \n" +
+                "                             ,,                                                                                                \n" +
+                "`7MMF'     A     `7MF'     `7MM                                                 mm               `7MMM.     ,MMF'              \n" +
+                "  `MA     ,MA     ,V         MM                                                 MM                 MMMb    dPMM                \n" +
+                "   VM:   ,VVM:   ,V .gP\"Ya   MM  ,p6\"bo   ,pW\"Wq.`7MMpMMMb.pMMMb.  .gP\"Ya     mmMMmm ,pW\"Wq.       M YM   ,M MM `7M'   `MF'    \n" +
+                "    MM.  M' MM.  M',M'   Yb  MM 6M'  OO  6W'   `Wb MM    MM    MM ,M'   Yb      MM  6W'   `Wb      M  Mb  M' MM   VA   ,V      \n" +
+                "    `MM A'  `MM A' 8M\"\"\"\"\"\"  MM 8M       8M     M8 MM    MM    MM 8M\"\"\"\"\"\"      MM  8M     M8      M  YM.P'  MM    VA ,V       \n" +
+                "     :MM;    :MM;  YM.    ,  MM YM.    , YA.   ,A9 MM    MM    MM YM.    ,      MM  YA.   ,A9      M  `YM'   MM     VVV        \n" +
+                "      VF      VF    `Mbmmd'.JMML.YMbmd'   `Ybmd9'.JMML  JMML  JMML.`Mbmmd'      `Mbmo`Ybmd9'     .JML. `'  .JMML.   ,V         \n" +
+                "                                                   ,,                                                              ,V          \n" +
+                "               .g8\"\"\"bgd                           db             `7MM\"\"\"Yp,                   `7MM             OOb\"           \n" +
+                "             .dP'     `M                                            MM    Yb                     MM                            \n" +
+                "             dM'       ` ,pW\"Wq.`7MMpMMMb.pMMMb. `7MM  ,p6\"bo       MM    dP  ,pW\"Wq.   ,pW\"Wq.  MM  ,MP'                      \n" +
+                "             MM         6W'   `Wb MM    MM    MM   MM 6M'  OO       MM\"\"\"bg. 6W'   `Wb 6W'   `Wb MM ;Y                         \n" +
+                "             MM.        8M     M8 MM    MM    MM   MM 8M            MM    `Y 8M     M8 8M     M8 MM;Mm                         \n" +
+                "             `Mb.     ,'YA.   ,A9 MM    MM    MM   MM YM.    ,      MM    ,9 YA.   ,A9 YA.   ,A9 MM `Mb.                       \n" +
+                "               `\"bmmmd'  `Ybmd9'.JMML  JMML  JMML.JMML.YMbmd'     .JMMmmmd9   `Ybmd9'   `Ybmd9'.JMML. YA.                      \n" +
+                "                                        ,,   ,,                           ,,                                                   \n" +
+                "                     .g8\"\"\"bgd        `7MM `7MM                    mm     db                                                   \n" +
+                "                   .dP'     `M          MM   MM                    MM                                                          \n" +
+                "                   dM'       ` ,pW\"Wq.  MM   MM  .gP\"Ya   ,p6\"bo mmMMmm `7MM  ,pW\"Wq.`7MMpMMMb.                                \n" +
+                "                   MM         6W'   `Wb MM   MM ,M'   Yb 6M'  OO   MM     MM 6W'   `Wb MM    MM                                \n" +
+                "                   MM.        8M     M8 MM   MM 8M\"\"\"\"\"\" 8M        MM     MM 8M     M8 MM    MM                                \n" +
+                "                   `Mb.     ,'YA.   ,A9 MM   MM YM.    , YM.    ,  MM     MM YA.   ,A9 MM    MM                                \n" +
+                "                     `\"bmmmd'  `Ybmd9'.JMML.JMML.`Mbmmd'  YMbmd'   `Mbmo.JMML.`Ybmd9'.JMML  JMML.                              \n" +
+                "                                                                                                                               \n" +
+                "                                                                                                                               ");
         while (running) {
             System.out.println("""
                     Enter 1 to load a collection.
